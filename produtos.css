@@ -10,3 +10,9 @@ margin:0 auto;
     display: inline-block;
     text-align: center;
     width: 30%;
+}
+.produtos-lista .produtos-item {
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+    border: 2px
