@@ -3,92 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
     <title>Barbearia Alura</title>
-</head>
-<h1 class="barbearia"></h1>
-<body>
-  <h1>Sobre a Barbearia Alura</h1>
-
-<P>localizada no coração da cidade a Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</P>
-
-<p>Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos clientes".</p>
-
-<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>  
-</body>
-<!DOCTYPE html>
-<html lang="pt-br">
-</section>
-<section class="mapa";
-<h3 class="titulo principal".Nosso estabelecimento
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.449977630607!2d-46.634906823913575!3d-23.588189862579803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59541c6c79c3%3A0x36b90a85f0f8cb33!2sAlura!5e0!3m2!1spt-BR!2sbr!4v1789425026298!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-<head>
-    <meta charset="UTF-8">
-    <title>Contato - Barbearia Alura</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="produtos.css">
 </head>
 <body>
     <header>
-        <div class="caixa">
-            <h1><img src="logo.png" alt="Logo da Barbearia Alura"></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="contatos">
-        <form>
-            <label for="nomesobrenome">Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao" required>
-
-            <label for="email">Email</label>
-            <input type="email" id="email" class="input-padrao" required>
-
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" class="input-padrao" required>
-
-            <label for="mensagem">Mensagem</label>
-            <textarea cols="70" rows="18" id="mensagem" class="input-padrao"></textarea>
-
-            <div>
-                <p>Como prefere o nosso contato?</p>
-                <input type="radio" name="contato" value="email" id="radio-email">
-                <label for="radio-email">Email</label>
-
-                <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                <label for="radio-telefone">Telefone</label>
-
-                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
-                <label for="radio-whatsapp">WhatsApp</label>
+            <div class="caixa">
+                <h1><img src="logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
-
-            <div>
-                <label for="horario">Qual horário prefere ser atendido?</label>
-                <select id="horario">
-                    <option>Manhã</option>
-                    <option>Tarde</option>
-                    <option>Noite</option>
-                </select>
-
-                <label class="checkbox" for="novidades">
-                    <input type="checkbox" id="novidades"> Gostaria de receber nossas novidades?
-                </label>
-            </div>
-
-            <input type="submit" value="Enviar formulário" class="enviar">
-        </form>
-    </main>
-
+        </header>
+    <img id="banner" src = "banner.jpg" alt="foto de uma barbearia com poltronas e espelho">
+   <main>
+    <section class = "principal">
+        <h2 class = "titulo-principal">Sobre a Barbearia Alura</h2>
+        <img class="utensilios" src="utensilios.jpg" alt="Utensilios de um barbeiro.">
+        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o 
+    mercado o que há de melhor para o seu cabelo e barba. 
+    Fundada em 2019, a Barbearia Alura já é destaque na cidade e 
+    conquista novos clientes a cada dia. </p>
+        <p>Nossa missão é: <strong><em>"Proporcionar auto-estima e qualidade de vida
+    aos clientes".</em></strong></p>
+        <p>Oferecemos profissionais experientes e antenados às mudanças 
+    no mundo da moda. O atendimento possui padrão de excelência e
+    agilidade, garantindo qualidade e satisfação dos nossos 
+    clientes.</p>
+    </section>
+    <section class = "beneficios">
+        <h3 class = "titulo-principal">Benefícios</h3>
+        <ul class = "lista-beneficios">
+            <li class = "itens">Atendimento aos clientes</li>
+            <li class = "itens">Espaço diferenciado</li>
+            <li class = "itens">Localização</li>
+            <li class = "itens">Profissionais qualificados</li>
+        </ul>
+    <img class = "imagembeneficios" src = "beneficios.jpg" alt = "homem sentado em uma poltrona fazendo a barba">
+</section>
+</main>
     <footer>
-        <img src="logo-branco.png" alt="Logo branca da Barbearia Alura">
-        <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
-    </footer>
+		<img src="logo-branco.png">
+		<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+	</footer>
 </body>
-</html>
-
 </html>
